@@ -240,4 +240,8 @@
       password = #{password,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
+
+  <select id="gitListUser" resultMap="BaseResultMap">
+    SELECT * from user
+  </select>
 </mapper>

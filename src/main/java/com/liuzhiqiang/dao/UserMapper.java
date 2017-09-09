@@ -93,4 +93,6 @@ public interface UserMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(User record);
+
+    List<User> gitListUser();
 }
